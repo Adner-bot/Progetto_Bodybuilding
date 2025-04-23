@@ -1,0 +1,121 @@
+/* Colore sfondo pagina/elemento HTML */
+body {
+    background-color: rgb(137, 130, 130); 
+    color: #444; 
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Colore testo */
+h1, h2, h3, h4 {
+    color: #000000; 
+}
+
+/* Allineamento del testo */
+.centro {
+    text-align: center; 
+}
+
+.text-justify {
+    text-align: justify; 
+}
+
+/* Commenti CSS */
+ /* Questo è un commento in CSS */
+
+/* Bordo (colore, tipo, spessore) */
+table, th, td {
+    border: 2px solid black; 
+}
+
+h1, h2, h3, h4 {
+    border-bottom: 2px solid #333; 
+    padding-bottom: 10px; 
+}
+
+/* Margine */
+body {
+    margin: 20px; 
+}
+
+/* Riempimento (padding) */
+table, th, td {
+    padding: 10px; 
+}
+
+/* Altezza-larghezza */
+img {
+    width: 100%; 
+    max-width: 700px; 
+    height: auto; 
+}
+
+/* Outline/Schema */
+h1, h2, h3, h4 {
+    outline: 3px solid #000000; 
+}
+
+/* Testo (colore, allineamento, decorazione) */
+h1 {
+    color: darkblue; 
+    text-align: center; 
+}
+
+a {
+    color: #008CBA; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff6347; 
+    text-decoration: underline; 
+}
+
+a:active {
+    color: #d32f2f; 
+}
+
+/* Carattere */
+h1, h2, h3, h4, p {
+    font-family: 'Helvetica', sans-serif; 
+}
+
+/* Icone */
+.icon {
+    font-size: 30px; 
+    color: #333; 
+}
+
+/* Collegamenti: Distinguere link in base a stato */
+a:link {
+    color: #008CBA; 
+}
+
+a:visited {
+    color: #800080; 
+}
+
+/* Elenchi */
+ul {
+    list-style-type: square; 
+}
+
+ol {
+    list-style-type: decimal; 
+    margin-left: 20px; 
+}
+
+/* Tabelle */
+table {
+    width: 80%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center; 
+}
+
+/* Box-model */
+* {
+    box-sizing: border-box;
+}
